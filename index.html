@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de Letras 14x14 - Búsqueda por Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Sopa de Letras</h1>
+        <p class="instructions">Escribe una palabra en el buscador y presiona "Buscar" para encontrarla en la sopa de letras.</p>
+
+        <div class="content-wrapper">
+            <!-- Tablero de la Sopa de Letras 14x14 -->
+            <div id="grid" class="grid"></div>
+
+            <!-- Panel lateral con input, lista y mensajes -->
+            <div class="panel">
+                <div class="search-box">
+                    <input type="text" id="word-input" placeholder="Escribe una palabra..." autocomplete="off">
+                    <button id="search-btn" class="btn-primary">Buscar</button>
+                </div>
+                
+                <div id="message" class="message"></div>
+
+                <h3>Palabras a encontrar (<span id="counter">0</span>/10):</h3>
+                <ul id="word-list">
+                    <!-- Se llenarán dinámicamente -->
+                </ul>
+
+                <button id="restart-btn" class="btn-secondary">Reiniciar Juego</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
