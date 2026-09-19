@@ -47,8 +47,8 @@ h1 {
 /* Cuadrícula de 14x14 */
 .grid {
     display: grid;
-    grid-template-columns: repeat(20, 35px);
-    grid-template-rows: repeat(20, 35px);
+    grid-template-columns: repeat(14, 35px);
+    grid-template-rows: repeat(14, 35px);
     gap: 2px;
     background-color: #bdc3c7;
     padding: 4px;
