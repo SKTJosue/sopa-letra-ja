@@ -1,4 +1,4 @@
-const SIZE = 14;
+const SIZE = 10;
 
 // 10 palabras hardcodeadas
 const WORDS = [
